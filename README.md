@@ -26,7 +26,7 @@ Simple 예제의 서버와 통신을 주고 받는 UE4 클라이언트 예제입
 설치하신 CMake가 지원하는 Visual Studio 버전을 확인하시려면 하기의 명령을 cmd에서 입력해보시면 됩니다.
 ```cmake -G```
 12. 생성된 sln 파일을 여신 뒤, Common 프로젝트를 빌드합니다.
-13. 하기와 같이 적혀있는 SimpleCommon.lib 참조 절대 경로를 방금 전에 빌드하셔서 생성된 SimpleCommon.lib가 있는 절대 경로로 바꿉니다.
+13. SimpleUE4.Build.cs에 하기와 같이 적혀있는 SimpleCommon.lib 참조 절대 경로를 방금 전에 빌드하셔서 생성된 SimpleCommon.lib가 있는 절대 경로로 바꿉니다.
 ```PublicIncludePaths.Add(@"E:\engine\dev003_3478\R2\ProudNet\include);```
 14. 이제 UE4 Editor 창에서 '컴파일'을 한번 눌러줘서 C++ 코드들이 컴파일되게 합니다.
 15. 컴파일 완료 메세지가 뷰포트 우측 하단에 뜨면, Client인 SimpleUE4는 구동 준비가 끝난 것입니다.
