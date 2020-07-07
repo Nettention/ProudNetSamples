@@ -1,0 +1,15 @@
+﻿// P2P RMI function definitions.
+
+rename cs(Proud::String, System.String);
+
+global Simple 2000 // First message ID is 2000+1
+{
+	// Example that send chatting message to server
+	Chat([in] Proud::String a,[in] int b,[in] float c);
+
+	ShowChat([in] Proud::String a,[in]int b,[in]float c);
+	SystemChat([in] Proud::String txt);
+
+	P2PChat([in] Proud::String a,[in] int b, [in] float c);
+
+}

@@ -1,0 +1,10 @@
+cmake_minimum_required (VERSION 2.6)
+set(CMAKE_SUPPRESS_REGENERATION true)
+
+#The name of the .sln file
+project (Simple)
+
+#Adding VC Projects
+add_subdirectory(Common)
+add_subdirectory(Client)
+add_subdirectory(Server)

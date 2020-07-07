@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SimpleUE4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{98621D01-924A-4314-92F9-DD45D521BA78}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SimpleUE4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SimpleUE4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5F9433FA-3852-4459-9233-9E51005C4C3A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SimpleUE4">
+      <UniqueIdentifier>{2F6F8D1F-8BFE-4550-84E4-4C0C536EF887}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SimpleUE4\SimpleUE4.Build.cs">
+      <Filter>Source\SimpleUE4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SimpleUE4\SimpleUE4.cpp">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SimpleUE4\SimpleUE4.h">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SimpleUE4\SimpleUE4GameModeBase.cpp">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SimpleUE4\SimpleUE4GameModeBase.h">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SimpleUE4\SimpleHUD.h">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SimpleUE4\ProudNetActor.h">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SimpleUE4\SimpleHUD.cpp">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SimpleUE4\ProudNetActor.cpp">
+      <Filter>Source\SimpleUE4</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
