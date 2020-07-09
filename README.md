@@ -22,7 +22,7 @@ Simple 예제의 서버와 통신을 주고 받는 UE4 클라이언트 예제입
 9. 프라우드넷 설치 경로의 Bin 폴더 안에 있는 CMake 설치 파일로 CMake가 설치되어져 있지 않으시다면 CMake를 설치합니다.
 10. CMake 설치가 완료되셨다면, Simple 폴더에서 cmd 창을 띄웁니다.
 11. cmd에서 하기와 같은 명령으로 Visual Studio project 파일로 솔루션 파일을 생성합니다.
-```cmake -G "Visual Studio 16 2019"```
+```cmake -G "Visual Studio 16 2019"``` ( 주의 : Visual Studio 2017 이하 버전은 cmake -G "Visual Studio 15 2017 Win64"와 같이 Win64 문자열을 붙여주셔야 64비트용 sln이 생성됩니다. )
 설치하신 CMake가 지원하는 Visual Studio 버전을 확인하시려면 하기의 명령을 cmd에서 입력해보시면 됩니다.
 ```cmake -G```
 12. 생성된 sln 파일을 여신 뒤, Common 프로젝트를 빌드합니다.
